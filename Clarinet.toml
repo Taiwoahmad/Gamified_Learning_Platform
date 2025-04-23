@@ -5,8 +5,43 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.admin]
+path = 'contracts/admin.clar'
+clarity_version = 3
+epoch = 3.1
+
 [contracts.gamified_learning]
 path = 'contracts/gamified_learning.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.maps]
+path = 'contracts/maps.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.points-management]
+path = 'contracts/points-management.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.redemption]
+path = 'contracts/redemption.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.user-management]
+path = 'contracts/user-management.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.utils]
+path = 'contracts/utils.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.variables]
+path = 'contracts/variables.clar'
 clarity_version = 3
 epoch = 3.1
 [repl.analysis]
